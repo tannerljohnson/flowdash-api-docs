@@ -1,0 +1,81 @@
+openapi: 3.0.0
+tags:
+	- name: Tasks
+info:
+	title: Flowdash API
+	version: '1.0'
+	termsOfServive: 'https://flowdash.com'
+	description: Welcome to Flowdash's API documentation.
+	contact:
+		name: Developer Relations
+		email: developers@flowdash.com
+servers:
+	- url: 'https://api.flowdash.com'
+		description: Production
+paths:
+	'/v1/workdlows/{workflow_id}/tasks':
+		get:
+			summary: Get tasks for a workflow
+			operationId: get-v1-tasks
+			description: Get tasks.
+			parameters: []
+			responses:
+				'200':
+					$ref: '#/components/responses/Task-Object'
+			tags:
+				- Tasks
+components:
+	schemas:
+		Task:
+			description: The representation of a Task in Flowdash
+			type: object
+			x-examples:
+				Task:
+					Stage: 'In Progress',
+					Assigned To: null,
+        	Task URL: "https://app.flowdash.com/workflows/2ylSaZ/tasks/ooCwnZ",
+        	Company ID: "42",
+        	Company Name: "Acme Corp",
+        	Number of Employees: "10",
+        	Contract Value: "10000.00",
+        	Expected Close Date: "2020-01-31",
+        	International?: false
+			properties:
+				Stage:
+					type: string
+					description: blah
+					readOnly: true
+				Assigned To:
+					type: string
+					description: blah
+					readOnly: true
+				Task URL:
+					type: string
+					description: blah
+					readOnly: true
+				Company ID:
+					type: string
+					description: blah
+					readOnly: true
+				Company Name:
+					type: string
+					description: blah
+					readOnly: true
+				Number of Employees:
+					type: string
+					description: blah
+					readOnly: true
+				Contract Value:
+					type: string
+					description: blah
+					readOnly: true
+				Expected Close Date:
+					type: string
+					description: blah
+					readOnly: true
+				International?:
+					type: boolean
+					description: blah
+					readOnly: true
+security:
+	- Authorization: []
