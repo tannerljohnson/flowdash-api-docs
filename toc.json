@@ -36,11 +36,6 @@
     },
     {
       "type": "item",
-      "title": "Updating Payrolls",
-      "uri": "docs/guides/Updating Payrolls.md"
-    },
-    {
-      "type": "item",
       "title": "Creating a new action",
       "uri": "docs/guides/Creating a new action.md"
     },
