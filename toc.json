@@ -15,39 +15,51 @@
       "title": "guides"
     },
     {
-      "type": "item",
-      "title": "Authorization",
-      "uri": "docs/guides/Authorization.md"
+      "type": "group",
+      "title": "Task API",
+      "items": [
+        {
+          "type": "item",
+          "title": "Authorization",
+          "uri": "docs/guides/Authorization.md"
+        },
+        {
+          "type": "item",
+          "title": "Creating a new task",
+          "uri": "docs/guides/Creating a new task.md"
+        },
+        {
+          "type": "item",
+          "title": "Updating an existing task",
+          "uri": "docs/guides/Updating an existing task.md"
+        },
+        {
+          "type": "item",
+          "title": "Reading existing tasks",
+          "uri": "docs/guides/Reading existing tasks.md"
+        }
+      ]
     },
     {
-      "type": "item",
-      "title": "Creating a new task",
-      "uri": "docs/guides/Creating a new task.md"
-    },
-    {
-      "type": "item",
-      "title": "Updating an existing task",
-      "uri": "docs/guides/Updating an existing task.md"
-    },
-    {
-      "type": "item",
-      "title": "Reading existing tasks",
-      "uri": "docs/guides/Reading existing tasks.md"
-    },
-    {
-      "type": "item",
-      "title": "Creating a new action",
-      "uri": "docs/guides/Creating a new action.md"
-    },
-    {
-      "type": "item",
-      "title": "Request payload",
-      "uri": "docs/guides/Request payload.md"
-    },
-    {
-      "type": "item",
-      "title": "Response format",
-      "uri": "docs/guides/Response format.md"
+      "type": "group",
+      "title": "Actions",
+      "items": [
+        {
+          "type": "item",
+          "title": "Creating a new action",
+          "uri": "docs/guides/Creating a new action.md"
+        },
+        {
+          "type": "item",
+          "title": "Request payload",
+          "uri": "docs/guides/Request payload.md"
+        },
+        {
+          "type": "item",
+          "title": "Response format",
+          "uri": "docs/guides/Response format.md"
+        }
+      ]
     },
     {
       "type": "divider",
