@@ -55,7 +55,7 @@
     {
       "type": "item",
       "title": "Gusto API",
-      "uri": "reference/Gusto-API.v1.yaml"
+      "uri": "reference/Flowdash-API.v1.yaml"
     }
   ]
 }
