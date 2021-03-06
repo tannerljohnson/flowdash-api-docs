@@ -4,11 +4,11 @@ tags:
 info:
   title: Flowdash API
   version: '1.0'
-  termsOfService: 'https://flowdash.com'
+  termsOfService: 'https://flowdash.com/terms'
   description: Welcome to the Flowdash API documentation.
   contact:
     name: Developer Relations
-    email: developer@flowdash.com
+    email: support@flowdash.com
 servers:
   - url: 'https://app.flowdash.com/api'
     description: Production
