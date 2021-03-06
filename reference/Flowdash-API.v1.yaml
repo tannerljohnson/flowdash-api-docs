@@ -113,39 +113,30 @@ components:
         Stage:
           type: string
           description: stage
-          readOnly: true
         Assigned To:
           type: string
           description: assigned to
-          readOnly: true
         Task URL:
           type: string
-          description: blah
-          readOnly: true
+          description: task url
         Company ID:
           type: integer
-          description: blah
-          readOnly: true
+          description: company id (custom)
         Company Name:
           type: string
-          description: blah
-          readOnly: true
+          description: company name (custom)
         Number of Employees:
           type: integer
-          description: blah
-          readOnly: true
+          description: number of employees (custom)
         Contract Value:
           type: integer
-          description: blah
-          readOnly: true
+          description: contract value (custom)
         Expected Close Date:
           type: string
-          description: blah
-          readOnly: true
+          description: expected close date (custom)
         International?:
           type: boolean
-          description: blah
-          readOnly: true
+          description: international (custom)
       readOnly: true
       x-tags:
         - Tasks
