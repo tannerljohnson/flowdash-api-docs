@@ -4,7 +4,7 @@ tags:
 info:
   title: Flowdash API
   version: '1.0'
-  termsOfServive: 'https://flowdash.com'
+  termsOfService: 'https://flowdash.com'
   description: Welcome to the Flowdash API documentation.
   contact:
     name: Developer Relations
@@ -18,12 +18,19 @@ paths:
       summary: Get tasks for a workflow
       operationId: get-v1-tasks
       description: Get workflow tasks.
-      parameters: []
+      parameters:
+        - schema:
+            type: string
+          in: path
+          required: true
+          name: workflow_id
+          description: The workflow ID
       responses:
         '200':
-          $ref: '#/components/responses/Task-Object'
+          $ref: '#/components/responses/Task-List'
       tags:
         - Tasks
+      
 components:
   schemas:
     Task:
@@ -48,14 +55,14 @@ components:
           readOnly: true
         Assigned To:
           type: string
-          decsription: assigned to
+          description: assigned to
           readOnly: true
         Task URL:
           type: string
           description: blah
           readOnly: true
         Company ID:
-          type: string
+          type: integer
           description: blah
           readOnly: true
         Company Name:
@@ -63,11 +70,11 @@ components:
           description: blah
           readOnly: true
         Number of Employees:
-          type: string
+          type: integer
           description: blah
           readOnly: true
         Contract Value:
-          type: string
+          type: integer
           description: blah
           readOnly: true
         Expected Close Date:
@@ -99,16 +106,16 @@ components:
             Example:
               value:
                 - Stage: In Progress
-                  Assigned To: null
+                  Assigned To: bob
                   Task URL: https://app.flowdash.com/workflows/2ylSaZ/tasks/ooCwnZ
                   Company ID: 42
                   Company Name: Acme Corp
                   Number of Employees: 10
                   Contract Value: 10000.00
                   Expected Close Date: 2020-01-31
-                  International?:
+                  International?: false
                 - Stage: Completed
-                  Assigned To: null
+                  Assigned To: lisa
                   Task URL: https://app.flowdash.com/workflows/2ylSaZ/tasks/ooCwnZ
                   Company ID: 49
                   Company Name: Bread Ltd
