@@ -11,37 +11,28 @@
       "uri": "docs/basics/Introduction.md"
     },
     {
-      "type": "item",
-      "title": "Authentication",
-      "uri": "docs/basics/Authentication.md"
-    },
-    {
-      "type": "item",
-      "title": "Rate Limits",
-      "uri": "docs/basics/Rate Limits.md"
-    },
-    {
-      "type": "item",
-      "title": "Versioning",
-      "uri": "docs/basics/Versioning.md"
-    },
-    {
-      "type": "divider",
-      "title": "contact"
-    },
-    {
-      "type": "item",
-      "title": "Request API Access",
-      "uri": "docs/contact/Request API Access.md"
-    },
-    {
       "type": "divider",
       "title": "guides"
     },
     {
       "type": "item",
-      "title": "Syncing Employees",
-      "uri": "docs/guides/Syncing Employees.md"
+      "title": "Authorization",
+      "uri": "docs/guides/Authorization.md"
+    },
+    {
+      "type": "item",
+      "title": "Creating a new task",
+      "uri": "docs/guides/Creating a new task.md"
+    },
+    {
+      "type": "item",
+      "title": "Updating an existing task",
+      "uri": "docs/guides/Updating an existing task.md"
+    },
+    {
+      "type": "item",
+      "title": "Reading existing tasks",
+      "uri": "docs/guides/Reading existing tasks.md"
     },
     {
       "type": "item",
@@ -49,13 +40,32 @@
       "uri": "docs/guides/Updating Payrolls.md"
     },
     {
+      "type": "item",
+      "title": "Creating a new action",
+      "uri": "docs/guides/Creating a new action.md"
+    },
+    {
+      "type": "item",
+      "title": "Request payload",
+      "uri": "docs/guides/Request payload.md"
+    },
+    {
+      "type": "item",
+      "title": "Response format",
+      "uri": "docs/guides/Response format.md"
+    },
+    {
       "type": "divider",
-      "title": "APIS"
+      "title": "API"
     },
     {
       "type": "item",
       "title": "Flowdash API",
       "uri": "reference/Flowdash-API.v1.yaml"
+    },
+    {
+      "type": "divider",
+      "title": "contact"
     }
   ]
 }
