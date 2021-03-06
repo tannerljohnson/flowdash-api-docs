@@ -10,7 +10,7 @@ info:
     name: Developer Relations
     email: developer@flowdash.com
 servers:
-  - url: 'https://api.flowdash.com'
+  - url: 'https://app.flowdash.com/api'
     description: Production
 paths:
   '/v1/workflows/{workflow_id}/tasks':
@@ -91,7 +91,7 @@ components:
   securitySchemes:
     Authorization:
       type: http
-      scheme: bearer
+      scheme: Bearer
       description: The access token
   responses:
     Task-List:
