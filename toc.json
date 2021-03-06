@@ -66,6 +66,11 @@
     {
       "type": "divider",
       "title": "contact"
+    },
+    {
+      "type": "item",
+      "title": "Get in touch",
+      "uri": "docs/basics/Contact us.md"
     }
   ]
 }
